@@ -6,10 +6,10 @@
 #include "doublePendulum.h"
 #include "SinglePendulum.h"
 
-#define SOLO_DOUBLE_PENDULUM
+//#define SOLO_DOUBLE_PENDULUM
 //#define THREE_DOUBLE_PENDULUM
 //#define SOLO_SINGLE_PENDULUM
-//#define FOUR_SINGLE_PENDULUM
+#define FOUR_SINGLE_PENDULUM
 
 bool _simulation = false;
 float _zoom = 15.0f; // 화면 확대,축소
